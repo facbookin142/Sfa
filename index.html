@@ -1,7 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-  <meta http-equiv="refresh" content="0;url=https://t.me/SFAEarnings">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random WhatsApp Redirect</title>
+    <script>
+        function redirectToWhatsApp() {
+            // नए WhatsApp नंबर
+            var numbers = [
+                "447464312967",
+                "443338806845",
+                "917873686647",
+                "917895006277",
+                "918500336344",
+                "447585010495",
+                "441159903924",
+                "917391984456",
+                "447386838527",
+                "919193854077",
+                "918858531870",
+                "447443745996",
+                "918148330480",
+                "918871853559",
+                "447585010495",
+                "919193854077",
+                "918858531870",
+                "447443745996",
+                "918148330480",
+                "918871853559",
+                "447585010495"
+            ];
+
+            // Random नंबर चुनना
+            var randomIndex = Math.floor(Math.random() * numbers.length);
+            var selectedNumber = numbers[randomIndex];
+
+            // WhatsApp लिंक बनाना और डायरेक्ट रीडायरेक्ट करना
+            window.location.href = "https://wa.me/" + selectedNumber;
+        }
+    </script>
 </head>
-<body></body>
+<body onload="redirectToWhatsApp()">
+</body>
 </html>
