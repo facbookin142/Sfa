@@ -1,19 +1,77 @@
-<script>
-    function startCountdown() {
-        document.querySelector(".join-button").style.display = "none";
-        document.getElementById("countdown").style.display = "block";
-
-        let timeLeft = 3; // 3 seconds instead of 60
-        let timer = document.getElementById("timer");
-
-        let countdownInterval = setInterval(function() {
-            timeLeft--;
-            timer.textContent = timeLeft;
-
-            if (timeLeft <= 0) {
-                clearInterval(countdownInterval);
-                window.location.href = "https://www.googlalab.com/VF782C?utm_medium=paid&utm_source=fb&utm_id=120217143829650358&utm_content=120217144242930358&utm_term=120217144242870358&utm_campaign=120217143829650358&fbclid=IwZXh0bgNhZW0CMTEAAR1HmHVC6fkDv-Y3LwIBBB45mb5K_HMTLPGBURhSk7LxlL6g3iNputy0cVk_aem_e1Ah1b7N3CbwaLxoBp0Dfg"; // Target Link
-            }
-        }, 1000);
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earn Extra Income at Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #0073ff;
+      color: white;
+      text-align: center;
     }
-</script>
+    .container {
+      padding: 20px;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .content {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    .whatsapp-icon {
+      position: fixed;
+      top: 180px;
+      right: 20px;
+      width: 60px;
+    }
+    .features {
+      margin-top: 30px;
+      text-align: left;
+      display: inline-block;
+    }
+    .feature {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .feature::before {
+      content: '\2705';
+      margin-right: 10px;
+    }
+    .contact-button {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      text-decoration: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Earn extra income at home</div>
+    <div class="content">
+      Over the past few years, we have witnessed an exponential increase in prices. On the other hand, our salaries have not grown in step with prices. To live a comfortable life these days, we all need multiple sources of income. Thanks to the internet and technology, we can now earn extra income from the comfort of our home without having to juggle between jobs.
+    </div>
+    <a href="https://wa.me/919999999999" target="_blank">
+      <img class="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <div class="features">
+      <div class="feature">100% Money-making</div>
+      <div class="feature">Funds Withdrawable Anytime</div>
+      <div class="feature">Very easy</div>
+      <div class="feature">Become a Partner and Start Making</div>
+    </div>
+  </div>
+  <a class="contact-button" href="tel:9999999999">Contact us</a>
+</body>
+</html>
